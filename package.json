@@ -1,11 +1,18 @@
 {
-  "name": "my-app",
+  "name": "city-go",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
+    "json-loader": "^0.5.7",
+    "leaflet": "^1.5.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-google-maps": "^9.4.5",
+    "react-map-gl": "^5.1.2",
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "styled-components": "^4.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "redux-devtools": "^3.5.0"
   }
 }
